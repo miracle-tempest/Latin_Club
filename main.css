@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: rgba(52, 152, 219, 1.0);
+}
+
+nav,
+i {
+    transition-duration: 0.2s;
+}
+
+nav {
+    text-transform: uppercase;
+    padding: 24px 24px 48px 24px;
+}
+
+
+/* nav:hover {
+    background: rgba(19, 15, 14, 0.8)
+} */
+
+#nav-title {
+    float: left;
+}
+
+#contact-link:hover:after {
+    content: "Contact";
+}
+
+#calendar-link:hover:after {
+    content: "Calendar"
+}
+
+#blog-link:hover:after {
+    content: "Blog"
+}
+
+#resources-link:hover:after {
+    content: "Resources"
+}
+
+nav a {
+    margin: 0 24px;
+    font-size: 18px;
+    color: #ecf0f1;
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    float: right;
+}
+
+.full-height {
+    height: 100vh;
+    position: relative;
+    background: url(1200px-Exterior_of_the_Colosseum.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.veil {
+    background-color: rgba(19, 15, 14, 0.6);
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ecf0f1;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 60vw;
+    margin: 72px auto;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: rgba(19, 15, 14, 0.4);
+}
+
+p {
+    font-size: 18px;
+    margin: 12px 0;
+    color: rgba(19, 15, 14, 0.8);
+}
+
+footer {
+    text-align: center;
+    font-size: 36px;
+    background-color: rgba(19, 15, 14, 0.8);
+    padding: 144px;
+}
+
+footer i {
+    color: #ecf0f1;
+    margin: 0 24px;
+}
+
+.ico-facebook:hover {
+    color: #3b5998;
+}
+
+.ico-twitter:hover {
+    color: #55acee;
+}
+
+.ico-google-plus:hover {
+    color: #dc4e41;
+}
+
+.down {
+    transform: rotate(-90deg);
+}
